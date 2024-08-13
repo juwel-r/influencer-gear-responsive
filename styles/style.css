@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 html{
-    font-size: 55.6%;
+    font-size: 62.5%;
 }
 
 .product-details{
@@ -120,4 +120,77 @@ button{
     justify-content: space-between;
     align-items: center;
     gap: 6rem;
+}
+
+/*------------Collection Section---------*/
+
+.products{
+    margin:0 13.6%;
+    margin-top: 10rem;
+}
+.products h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 7rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 3rem;
+}
+.card{
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+.card h4{
+    color: rgb(24, 25, 31);
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 4rem;
+}
+.card >p{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 2.4rem;
+    line-height: 6rem;
+}
+
+.rating{
+    display: flex;
+    gap: 1rem;
+}
+.rating img{
+    height: 16px;
+}
+.rating p{
+    color: rgb(94, 99, 102);
+    font-size: 1.6rem;
+    font-family: Roboto;
+    font-weight: 800;
+    line-height: 2rem;
+}
+ #product-details{
+    color: rgb(120, 120, 133);
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 145%;
+    letter-spacing: 2%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.see-more {
+    padding-top: 50px;
+    text-align: right;
+}
+.see-more a{
+    color: rgba(224, 44, 109, 0.87);
+    text-decoration: none;
+    padding-top: 5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
 }
