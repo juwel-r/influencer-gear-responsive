@@ -54,11 +54,13 @@ menu a{
     line-height: 2.4rem;
 }
 
-ul{
+menu ul{
     display: flex;
     list-style: none;
     gap: 3.4rem;
 }
+.menu-bar{display: none;}
+
 
 /*----------Header Banner ------------*/
 
@@ -97,7 +99,7 @@ button{
 }
 .img-container{
     flex: 1;
-    background: url(../images/Circle\ design.svg) no-repeat center/cover;
+    background: url(../images/Circle\ design.svg) no-repeat center/contain;
 }
 .img-container img{
     width: 100%;
@@ -212,7 +214,8 @@ button{
     max-width: 1110px;
     margin: 0 auto;
     margin-top: 10rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
     justify-content: space-between;
     align-items: center;
     gap:8.65%;
@@ -238,6 +241,9 @@ button{
     font-weight: 700;
     font-family: Poppins;
     border-radius: 0;
+}
+.fratured-product-img img{
+    width: 100%;
 }
 
 /*footer*/
